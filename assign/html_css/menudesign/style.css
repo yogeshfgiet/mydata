@@ -1,0 +1,84 @@
+
+
+
+
+
+
+.main {
+    border: thin solid hsl(0, 0%, 0%);
+    padding: 72px 8px 8px;
+    width: 99%;
+}
+ul {
+        background: none repeat scroll 0 0 hsl(197, 61%, 50%);
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+ul li {
+    background: none repeat scroll 0 0 hsl(197, 61%, 50%);
+    border-right: 0.5px solid hsl(0, 0%, 100%);
+    display: block;
+    float: left;
+    position: relative;
+}
+
+#cont {
+    border: medium none;
+    width: 132px;
+}
+/* This hides the dropdowns */
+
+
+li ul { display: none; }
+
+
+
+ul li a {
+    color: hsl(0, 0%, 100%);
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+ul li a:hover { background: gray; }
+
+/* Display the dropdown */
+
+
+li:hover > ul {
+  display: block;
+  position: absolute;
+}
+
+li:hover li { float: none; }
+
+li:hover a { background:  hsl(197, 61%, 50%); }
+
+li:hover li a:hover {    background: hsl(197, 61%, 50%); }
+
+.main-navigation li ul li { border-top: 0; }
+
+/* Displays second level dropdowns to the right of the first level dropdown */
+
+
+ul ul ul {
+  left: 100%;
+  top: 0;
+}
+
+/* Simple clearfix */
+
+
+
+ul:before,
+ul:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+ul:after { clear: both; }

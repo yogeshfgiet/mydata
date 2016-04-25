@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="Nivo-Slider-master/nivo-slider.css" rel="stylesheet" type="text/css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+        <script src="Nivo-Slider-master/jquery.nivo.slider.js" type="text/javascript"></script>
+        <link href="Nivo-Slider-master/themes/default/default.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript">
+            $(window).load(function() {
+                $('#slider').nivoSlider();
+            });
+        </script>
+    </head>
+    <body>
+        <div id="slider" class="nivoSlider">
+            <img src="images/cartoon1.jpg" alt="" width="300"/>
+            <img src="images/cartoon2.jpg" alt="" width="300" title="#htmlcaption" />
+            <img src="images/cartoon3.jpg" alt="" width="300" title="This is an example of a caption" />
+            <img src="images/cartoon5.jpg" alt="" width="300" />
+        </div>
+        <div id="htmlcaption" class="nivo-html-caption">
+
+            <h3>This is nivo-slider demo</h3>
+        </div>
+        
+    </body>
+</html>

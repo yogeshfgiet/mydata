@@ -1,0 +1,24 @@
+#fancy {
+ display:none;
+}
+
+
+#aa {
+
+    padding-top: 6px;
+    background-color: hsl(0, 28%, 52%);
+}
+
+
+#div1 {
+    border: thin solid hsl(0, 0%, 83%);
+    height: 329px;
+}
+
+
+#fancy {
+
+	width:315px;
+ 
+}
+ 

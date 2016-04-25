@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<countries>
+    <country>
+        <title>Afghanistan</title>
+        <capital>Kabul</capital>
+    </country>
+    <country>
+        <title>Australia</title>
+        <capital>Canberra</capital>
+    </country>
+    <country>
+        <title>Belgium</title>
+        <capital>Brussels</capital>
+    </country>
+    <country>
+        <title>Cuba</title>
+        <capital>Havana</capital>
+    </country>
+    <country>
+        <title>Egypt</title>
+        <capital>Cairo</capital>
+    </country>
+    <country>
+        <title>Fiji</title>
+        <capital>Suva</capital>
+    </country>
+    <country>
+        <title>India</title>
+        <capital>New Delhi</capital>
+    </country>
+    <country>
+        <title>Kenya</title>
+        <capital>Nairobi</capital>
+    </country>
+    <country>
+        <title>Nepal</title>
+        <capital>Kathmandu</capital>
+    </country>
+    <country>
+        <title>Pakistan</title>
+        <capital>Islamabad</capital>
+    </country>
+    <country>
+        <title>Singapore</title>
+        <capital>Singapore City</capital>
+    </country>
+    <country>
+        <title>Spain</title>
+        <capital>Madrid</capital>
+    </country>
+    <country>
+        <title>United Kingdom</title>
+        <capital>London</capital>
+    </country>
+    <country>
+        <title>Uzbekistan</title>
+        <capital>Tashkent</capital>
+    </country>
+</countries>

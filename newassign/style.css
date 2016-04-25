@@ -1,0 +1,115 @@
+.head {
+    border: thin solid hsl(0, 0%, 0%);
+}
+.side {
+    border: thin solid hsl(0, 0%, 50%);
+    float: left;
+}
+
+.main {
+    border: thin solid hsl(0, 0%, 50%);
+    float: left;
+}
+
+
+.a1 {
+	   background-color: hsl(0, 23%, 78%);
+    border: thin solid hsl(0, 0%, 0%);
+   
+    height: 50px;
+    text-align: center;
+    width: 255px;
+}
+
+.a2 {
+   background-color: hsl(0, 23%, 78%);
+    border: thin solid hsl(0, 0%, 0%);
+   
+    height: 50px;
+    text-align: center;
+    width: 255px;
+}
+
+.a3 {
+   background-color: hsl(0, 23%, 78%);
+    border: thin solid hsl(0, 0%, 0%);
+  
+    height: 50px;
+    text-align: center;
+    width: 255px;
+}
+
+.a4 {
+   background-color: hsl(0, 23%, 78%);
+    border: thin solid hsl(0, 0%, 0%);
+
+    height: 50px;
+    text-align: center;
+    width: 255px;
+}
+
+.a5 {
+   background-color: hsl(0, 23%, 78%);
+    border: thin solid hsl(0, 0%, 0%);
+    
+    height: 50px;
+    text-align: center;
+    width: 255px;
+}
+
+.a6 {
+   background-color: hsl(0, 23%, 78%);
+    border: thin solid hsl(0, 0%, 0%);
+   
+    height: 50px;
+    text-align: center;
+    width: 255px;
+}
+
+#aa {
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.main1 {
+    border: thin solid hsl(0, 0%, 50%);
+    box-shadow: 0 0 8px 1px;
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+}
+
+
+.h3{
+    background-color: hsl(0, 0%, 74%);
+}
+
+.contaner {
+    border: thin solid hsl(0, 0%, 50%);
+    margin: 0 auto;
+    width: 427px;
+}
+
+.contaner > table {
+    background-color: hsl(86, 71%, 92%);
+   
+
+.dataDiv {
+    float: left;
+}
+
+
+.contan{
+    border: thin solid hsl(0, 0%, 0%);
+    height: 1000px;
+    margin: 0 auto;
+    width: 70%;
+}
+.header {
+    background-color: hsl(0, 0%, 50%);
+ 
+    height: 10%;
+    width: 100%;
+}
+
+

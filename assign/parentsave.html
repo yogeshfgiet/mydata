@@ -1,0 +1,30 @@
+/*
+
+
+    $(document).ready(function () {
+        $('#parent').change(function () {
+            $('#chield').attr('checked', $(this).is(":checked"));
+            $('#chield1').attr('checked', $(this).is(":checked"));
+		
+        });
+
+	 $('#chield').change(function () {
+            $('#parent').attr('checked', $(this).is(":checked"));
+	    
+            if ($(this).is(":checked") == false) {
+                $('#parent').attr('checked', $('#chield1').is(":checked"));
+		  
+            }
+        });
+
+	
+	$('#chield1').change(function () {
+            $('#parent').attr('checked', $(this).is(":checked"));
+         	   if ($(this).is(":checked") == false) {
+                $('#parent').attr('checked', $('#chield').is(":checked"));
+		
+            }
+        });
+      
+	
+    }); */

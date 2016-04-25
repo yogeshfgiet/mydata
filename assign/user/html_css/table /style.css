@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 Feb, 2016, 2:39:17 PM
+    Author     : etech99
+*/
+
+
+.box1 {
+    border: thin solid hsl(0, 100%, 50%);
+    float: left;
+    height: 200px;
+    position: relative;
+    width: 200px;
+}
+
+.box2 {
+    border: thin solid hsl(120, 100%, 25%);
+    float: left;
+    height: 200px;
+    position: relative;
+    width: 200px;
+}
+
+
+.box3 {
+    border: thin solid hsl(60, 100%, 50%);
+    float: left;
+    height: 200px;
+  
+    position: relative;
+    width: 200px;
+}
+
+
+.box4 {
+    border: thin solid hsl(240, 100%, 50%);
+    float: left;
+    height: 200px;
+    
+    position: relative;
+    width: 200px;
+}
+
+
+.box5 {
+    border: thin solid hsl(0, 0%, 0%);
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 100px;
+    position: absolute;
+    width: 200px;
+}
+
+
+
+.conbtainer {
+    height: 404px;
+    margin: 100px auto 0;
+    text-align: center;
+    width: 414px;
+}

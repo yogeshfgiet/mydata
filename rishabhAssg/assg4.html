@@ -1,0 +1,63 @@
+<html>
+<body> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<fieldset>
+    <input type="checkbox" class="parentCheckBox" /><b> Property</b><br />
+        <input type="checkbox" class="childCheckBox" /> Edit Property<br />
+        <input type="checkbox" class="childCheckBox" /> remove property<br />
+        <input type="checkbox" class="childCheckBox" />Add Property<br />
+</fieldset>
+<fieldset>
+    <input type="checkbox" class="parentCheckBox" /><b>Testimonial </b><br />
+        <input type="checkbox" class="childCheckBox" /> Add<br />
+        <input type="checkbox" class="childCheckBox" /> Remove<br />
+        <input type="checkbox" class="childCheckBox" /> View<br />
+        <input type="checkbox" class="childCheckBox" /> Edit<br />
+</fieldset>
+<fieldset>
+    <input type="checkbox" class="parentCheckBox" /><b>Users</b><br />
+        <input type="checkbox" class="childCheckBox" />Edit User<br />
+        <input type="checkbox" class="childCheckBox" />View User List <br />
+        <input type="checkbox" class="childCheckBox" />Add_User <br />
+</fieldset>
+
+<fieldset>
+    <input type="checkbox" class="parentCheckBox" /><b>Membership</b><br />
+        <input type="checkbox" class="childCheckBox" />Edit Membership<br />
+        <input type="checkbox" class="childCheckBox" />Remove Membership <br />
+        <input type="checkbox" class="childCheckBox" />Add Membership <br />
+</fieldset>
+<script>
+$(document).ready(
+        function() {
+            //clicking the parent checkbox should check or uncheck all child checkboxes
+            $(".parentCheckBox").click(
+                function() {
+                    $(this).parents('fieldset:eq(0)').find('.childCheckBox').attr('checked', this.checked);
+                }
+            );
+            //clicking the last unchecked or checked checkbox should check or uncheck the parent checkbox
+            $('.childCheckBox').click(
+                function() {
+                    if ($(this).parents('fieldset:eq(0)').find('.parentCheckBox').attr('checked') == true && this.checked == false)
+                        $(this).parents('fieldset:eq(0)').find('.parentCheckBox').attr('checked', false);
+                    if (this.checked == true) {
+                        var flag = true;
+                        $(this).parents('fieldset:eq(0)').find('.childCheckBox').each(
+    	                    function() {
+    	                        if (this.checked == false)
+    	                            flag = false;
+    	                    }
+                        );
+                        $(this).parents('fieldset:eq(0)').find('.parentCheckBox').attr('checked', flag);
+                    }
+                }
+            );
+        }
+    );
+</script>
+</body>
+</html>
+

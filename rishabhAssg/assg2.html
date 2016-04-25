@@ -1,0 +1,30 @@
+<html>
+<head>
+</head>
+<body>
+<form id="form" action="" method="post">
+email: <input type="email" id="email" name="email" ><br>
+password: <input type="password" name="password" ><br>
+confirm-password: <input type= "password" name= "confirm-password"><br>
+Agree to terms and conditions:<br> <input type="checkbox" name="agree" value="agree"  >agree
+<input type="checkbox" name="disagree" value="disagree" >disagree<br>
+<input id="submit" type="submit" value="submit" onclick="submit">
+</form>
+<script>
+$(document).ready(function() {
+    $('submit').bind("click",function() 
+    { 
+        var emailVal = $('#email').val(); 
+        if(emailVal=='') 
+        { 
+            alert("empty input"); 
+
+        } 
+        return false; 
+
+    }); 
+});
+
+</script>
+</body>
+</html>

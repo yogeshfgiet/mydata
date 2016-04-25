@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Krishinc_ProductOptions>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends></depends>
+        </Krishinc_ProductOptions>
+    </modules>
+</config>

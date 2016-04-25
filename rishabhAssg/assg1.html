@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Demo</title>
+</head>
+<body>
+    <a href="http://jquery.com/">jQuery</a>
+    <script src="jquery-1.12.0.min.js"></script>
+<form id="form" action="" method="post">
+<ul><li>email: <input type="email" id="email" name="email" ><br>
+<li>password: <input type="password" name="password" id="password" ><br>
+<li>confirm-password: <input type= "password" name= "cfmpassword" id="cfmpassword"><br>
+<li>Agree to terms and conditions:<br> <input type="checkbox" name="agree" value="agree" id="agree" >agree
+<br>
+<input id="submit" type="submit" value="submit" onclick="submit">
+</ul></form>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+    <script>
+ $( document ).ready(function() {
+        $( "a" ).click(function( event ) {
+            alert( "The link will no longer take you to jquery.com" );
+            event.preventDefault();
+        });
+    });
+    // Your code goes here.
+ $(document).ready(function() {
+    $('#submit').bind("click",function() 
+    { 
+        var emailVal = $('#email').val(); 
+        if(emailVal=='') 
+        { 
+            alert("email is required"); 
+
+        } 
+        return false; 
+
+    }); 
+});
+
+$(function () {
+        $("#submit").click(function () {
+            var password = $("#password").val();
+            var confirmPassword = $("#cfmpassword").val();
+            if (password != confirmPassword) {
+                alert("Passwords do not match.");
+                return false;
+            }
+            return true;
+        });
+    });
+
+$(function() {
+            $('#submit').click(function() {
+                if ($('#agree').is(':checked')) {
+                    alert('you agreed')
+                }
+                else {
+                    alert('please check terms & conditions')
+                }
+            })
+        })
+    </script>
+</body>
+</html>

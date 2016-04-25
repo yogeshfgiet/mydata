@@ -1,0 +1,246 @@
+.hovereffect {
+width:100%;
+height:100%;
+float:left;
+overflow:hidden;
+position:relative;
+text-align:center;
+cursor:default;
+}
+
+.hovereffect .overlay {
+width:100%;
+height:100%;
+position:absolute;
+overflow:hidden;
+top:0;
+left:0;
+opacity:0;
+background-color:rgba(0,0,0,0.5);
+-webkit-transition:all .4s ease-in-out;
+transition:all .4s ease-in-out
+}
+
+.hovereffect img {
+display:block;
+position:relative;
+-webkit-transition:all .4s linear;
+transition:all .4s linear;
+}
+
+.hovereffect h2 {
+	text-transform:uppercase;
+color:#fff;
+text-align:center;
+position:relative;
+font-size:17px;
+background:rgba(0,0,0,0.6);
+-webkit-transform:translatey(-100px);
+-ms-transform:translatey(-100px);
+transform:translatey(-100px);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+padding:10px;
+}
+
+.hovereffect a.info {
+text-decoration:none;
+display:inline-block;
+text-transform:uppercase;
+color:#fff;
+border:1px solid #fff;
+background-color:transparent;
+opacity:0;
+filter:alpha(opacity=0);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+margin:50px 0 0;
+padding:7px 14px;
+}
+
+.hovereffect a.info:hover {
+box-shadow:0 0 5px #fff;
+}
+
+.hovereffect:hover img {
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+
+.hovereffect:hover .overlay {
+opacity:1;
+filter:alpha(opacity=100);
+}
+
+.hovereffect:hover h2,.hovereffect:hover a.info {
+opacity:1;
+filter:alpha(opacity=100);
+-ms-transform:translatey(0);
+-webkit-transform:translatey(0);
+transform:translatey(0);
+}
+
+.hovereffect:hover a.info {
+-webkit-transition-delay:.2s;
+transition-delay:.2s;
+}
+#inner-headline {
+    background: #252525 none repeat scroll 0 0;
+    color: #fefefe;
+    height: 103px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.breadcrumb {
+    background-color: #68a4c4;
+    border-radius: 0;
+    margin-top: 32px;
+     width: 330px;
+}
+
+.img1 {
+    height: 310px;
+    padding: 5px;
+    width: 250px;
+}
+.map iframe{
+	
+	width: 100%;
+	  height: 350px;
+	}
+
+.seeall {
+   
+    padding-left: 178px;
+   
+}
+
+.prodTitle {
+    color: #EB1C24;
+    font-size: 12px;
+    font-weight: bold;
+}
+.row > strong {
+    margin-left: 20px;
+}
+.hr1 {
+    width: 675px;
+}
+.weblink {
+    margin-left: 19px;
+}
+
+#ram{
+  height:50px; 
+  position:relative;
+  background: rgba(0, 0, 0, 0) linear-gradient(#444444, #444444) repeat scroll 0 0;
+}
+
+
+
+.a1 {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid black;
+  text-decoration:none;
+  display:block;
+  height:100%;
+  width:100%;
+  line-height:21px;
+  color:#bbb;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left:25%;
+  border-left:5px solid transparent;
+  letter-spacing:1px;
+  transition: all 0.3s linear;
+}
+
+span[class ^= "icon"]{
+  position:absolute;
+  left:20px;
+  font-size: 1.5em;
+  transition: all 0.3s linear;
+}
+.text {
+    margin-left: 38px;
+}
+.active1 {
+  color: #B93632;
+  border-left:5px solid #B93632;
+  background-color: #1B1B1B;
+  outline:0;
+}
+
+ .a1:hover{
+    width:100%; 
+    z-index:1;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 1px 1px black;
+  }
+    
+
+.sub {
+    margin-left: 35%;
+}
+
+.list-unstyled li a {
+  
+}
+.news {
+    font-family: -moz-fixed;
+    padding-left: 10px;
+}
+.down {
+    margin-left: 10px;
+}
+.down  i{
+   padding-right:10px;
+   font-size:18px;
+    color: red;
+}
+.list-unstyled > li {
+ 
+   
+    
+}
+.row > img {
+    margin: 10px;
+}
+.msg {
+    color: green;
+}
+
+.welcome {
+    color: #449D44;
+    font-family: Verdana;
+    font-size: 40px;
+}
+.wel {
+    box-shadow: 0 0 18px 6px;
+    color: #449D44;
+}
+
+.example{
+			height: 300px;
+			-moz-box-shadow: 1px 1px 5px #999;
+			-webkit-box-shadow: 1px 1px 5px #999;
+			
+	}
+.example .container1 {
+	margin: 0;
+	padding: 0;
+}
+.example .container1 li {
+			
+	margin: 0 0 0 5px;
+	padding: 5px 0 5px 0;
+	border-bottom: 1px dotted #999
+}
+.a11 { cursor: pointer}
+
+.p1 {
+    text-align: justify;
+}
